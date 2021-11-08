@@ -1,6 +1,12 @@
-# Project
- Calculator to calculate the tip and money that everybody owes if one person is paying. This project will be using JavaScript, CSS, and HTML.
+# Project:
+ Calculator to calculate the tip of the meal. This project will be using JavaScript, CSS, and HTML.
  
- ## Instructions
+ ## Objecttives:
+In case you and you're friends go out at night and everyone says:
+> Ohh I'm so sorry we fogot to bring out wallets.
+this can help you calculate the total amount that each person owes. In the future we will be adding more features such as:
+- Separating the total among people
+- Trip expenses
+
  
  
