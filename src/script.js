@@ -14,13 +14,13 @@ function calculateTip(){
     let TotalPeople = document.getElementById("AmountOfPeople").value;
     //if the inputs are not conserved as values they will show an error
 
-    billInput.value = bill;
+    billInput.value = bill.toFixed(2);
 
-    let totalTip = parseFloat((bill * (tipPercent/100)));
-    let total = parseFloat((bill + totalTip));
+    let totalTip = parseFloat((bill * (tipPercent/100)).toFixed(2);
+    let total = parseFloat((bill + totalTip)).toFixed(2);
 
-    let tipPerPerson = (totalTip / TotalPeople);
-    let totalPerPerson = (total / TotalPeople);
+    let tipPerPerson = (totalTip / TotalPeople).toFixed(2);
+    let totalPerPerson = (total / TotalPeople).toFixed(2);
 
     document.getElementById("tip-amount").textContent = `\$ ${totalTip}`;
     document.getElementById("total-amount").textContent = `\$ ${total}`;
