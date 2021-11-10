@@ -6,16 +6,21 @@ sliders.forEach(function(slider){
 
 const billInput = document.getElementById("bill");
 billInput.addEventListener("change",calculateTip);
-//registering user input inot our function
+//registering user input in our function
 
 function calculateTip(){
+    
     let bill = parseFloat(billInput.value);
+
+
+    
+    
     let tipPercent = document.getElementById("tip").value;
     let TotalPeople = document.getElementById("PeopleAmount").value;
     //if the inputs are not conserved as values they will show an error
 
     billInput.value = bill.toFixed(2);
-
+   
     let totalTip = parseFloat((bill * (tipPercent/100)).toFixed(2));
     let total = parseFloat((bill + totalTip).toFixed(2));
 
