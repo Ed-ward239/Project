@@ -7,7 +7,7 @@
  
 # Tips Calculator 1.0:
  Calculator to calculate the tip of the meal. This project will be using JavaScript, CSS, and HTML.
- For an easy access to the project you can click here[https://htmlpreview.github.io/?https://github.com/Ed-ward239/Project/blob/main/src/index.html]
+ For an easy access to the project you can click [here](https://htmlpreview.github.io/?https://github.com/Ed-ward239/Project/blob/main/src/index.html)
  
  
  ## Objectives:
