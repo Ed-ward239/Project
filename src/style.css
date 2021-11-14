@@ -38,7 +38,6 @@ body{
     color: #44475b;
     font-weight: 500;
     font-size: 18px;
-    
 }
 
 .input-box{
@@ -47,6 +46,12 @@ body{
     padding: 5px;
     border-radius: 5px;
 }
+.input-box:focus{
+  background-color: #44475b;
+  outline: none;
+}
+
+
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -60,13 +65,15 @@ input[type=number] {
 }
 
 #bill{
-    background-color: transparent;
+    background-color:transparent;
     border: none;
     outline: none;
     width: 100px;
     text-align: right;
     color: black; 
+
 }
+
 
 hr{
     border: none;
@@ -183,4 +190,8 @@ section:last-child{
 section:last-child .val,
 section:last-child .lbl{
     color: black;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
 }
