@@ -11,15 +11,17 @@ billInput.addEventListener("change",calculateTip);
 function calculateTip(){
     
     let bill = parseFloat(billInput.value);
-
-
-    
-    
     let tipPercent = document.getElementById("tip").value;
     let TotalPeople = document.getElementById("PeopleAmount").value;
     //if the inputs are not conserved as values they will show an error
 
     billInput.value = bill.toFixed(2);
+    
+    var emptyBox = document.getElementById("bill").value;
+        if (emptyBox == ""){
+            alert("Please enter a number");
+            tipPerPerson = 0;
+        } 
    
     let totalTip = parseFloat((bill * (tipPercent/100)).toFixed(2));
     let total = parseFloat((bill + totalTip).toFixed(2));
