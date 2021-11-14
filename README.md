@@ -2,7 +2,6 @@
  - Fixed the dollar sign
  - Better UI (user interface)
  ##### Bugs that still needs to be fixed:
- - bill input can input letters, we only want numbers
  - when bill input is null, the calculator gives an output error
  
 # Tips Calculator 1.0:
