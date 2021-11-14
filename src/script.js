@@ -19,7 +19,6 @@ function calculateTip(){
     
     var emptyBox = document.getElementById("bill").value;
         if (emptyBox == ""){
-            alert("Please enter a number");
             tipPerPerson = 0;
         } 
    
