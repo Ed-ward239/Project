@@ -1,8 +1,8 @@
 # Tips Calculator 1.1:
  - Fixed the dollar sign
  - Better UI (user interface)
- ##### Bugs that still needs to be fixed:
- - when bill input is null, the calculator gives an output error
+ - fixed bug where user can enter letters.
+ - fixed bug where gives NaN
  
 # Tips Calculator 1.0:
  Calculator to calculate the tip of the meal. This project will be using JavaScript, CSS, and HTML.
